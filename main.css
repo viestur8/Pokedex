@@ -13,7 +13,7 @@ html {
   background: url(flaming.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 body {
   width: 100%;
@@ -46,8 +46,8 @@ div {
 
 img {
   /* display: block; */
-  width: 200;
-  height: 300;
+  width: 50;
+  height: 50;
 }
 
 button {
