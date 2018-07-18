@@ -1,0 +1,52 @@
+@import url("https://db.onlinewebfonts.com/c/98de1f05dfb9377618970913de6ccf8d?family=Simpson");
+@font-face {
+  font-family: "Simpson";
+  src: url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.eot");
+  src: url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.woff") format("woff"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.svg#Simpson") format("svg");
+}
+* {
+  font-family: Simpson; sans-serif;
+  color: pink;
+}
+
+html {
+  background: url(flaming.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: !00%;
+  margin: auto;
+  /* background-image: url("flaming.jpg");
+  background-repeat: no-repeat; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  width: 200;
+  height: 300;
+}
+
+button {
+  background-color: white;
+  border-style: none;
+  border: solid 1px black;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
