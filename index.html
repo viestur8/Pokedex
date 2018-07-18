@@ -14,33 +14,70 @@
 </head>
 
 <body>
-  <div class="container">
 
+  <!-- All content inside a container div -->
+  <div class="container">
+<!-- first class=row div -->
     <div class="row">
+      <!-- tittle div class column -->
       <div class="col s12">
-        <span class="flow-text"><h1>Welcome Homer's Pokémon Champions League</h1>
-    </span>
+        <nav>
+     <div class="nav-wrapper">
+       <a href="#!"  class="brand-logo"><img class="responsive-img" id="logo" src="homer3.jpg"></a>
+       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       <ul class="right hide-on-med-and-down">
+         <li><a href="sass.html">Sass</a></li>
+         <li><a href="badges.html">Components</a></li>
+         <li><a href="collapsible.html">Javascript</a></li>
+       </ul>
+     </div>
+   </nav>
+
+   <ul class="sidenav" id="mobile-demo">
+     <li><a href="sass.html">Sass</a></li>
+     <li><a href="badges.html">Components</a></li>
+     <li><a href="collapsible.html">Javascript</a></li>
+     <li><a href="mobile.html">Mobile</a></li>
+   </ul>
+   <span class="flow-text"><h1>Welcome to Homer's Pokémon Champions League</h1>
+ </span>
+
       </div>
     </div>
+    <div class="row">
+      <div class="col s6" id="zoo">
+
+      </div>
+  </div>
+    <!-- second row div -->
     <div class="row">
       <div class="col s4 offset-s4 ">
         Please Enter an ID:
         <input type="number" min="1" value="1" class="pokemon-input"></input>
       </div>
     </div>
+
+    <!-- third row div -->
     <div class="row">
-      <div class="col s4">
+      <div class="col s4 offset-s3">
         <span class="pokemon-name"></span>
         <img class="pokemon-image"></img>
         <button class="pokemon-button">Load Pokémon Data</button>
       </div>
     </div>
 
+
+
+
   </div>
   <!-- Compiled and minified JavaScript -->
+  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.js"></script>
-  <script src="script.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="pokeSearch.js"></script>
+    <script src="trainer.js"></script>
+
 </body>
 
 </html>
