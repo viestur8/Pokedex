@@ -38,7 +38,7 @@ div {
 }
 
 img {
-  display: block;
+  /* display: block; */
   width: 200;
   height: 300;
 }
