@@ -3,8 +3,8 @@ let input = document.querySelector(".pokemon-input");
 let pokemonName = document.querySelector(".pokemon-name");
 let pokemonImage = document.querySelector(".pokemon-image");
 if (pokemonImage && pokemonImage.style) {
-  pokemonImage.style.height = '400px';
-  pokemonImage.style.width = '600px';
+  pokemonImage.style.height = '200px';
+  pokemonImage.style.width = '300px';
 }
 
 function getPokemon() {
