@@ -26,15 +26,13 @@ class Trainer {
     let currentPoke = this.get(pokemonName);
     let h1 = document.createElement('h1');
     h1.innerText = currentPoke.name
-    document.body.appendChild(h1);
+    document.getElementById("zoo").appendChild(h1);
     let jimmy = document.createElement('img')
     jimmy.src = currentPoke.photo;
-  document.getElementById("zoo").appendChild(jimmy)
+    document.getElementById("zoo").appendChild(jimmy)
     // pokemonImage.src = response.data.sprites.front_default;
   }
-// document.getElementById("zoo").appendChild(node)
 }
-// document.getElementById("myList").appendChild(node)
 
 //
 class Pokemon {
@@ -47,6 +45,7 @@ class Pokemon {
     this.photo = photo
   }
 }
+
 let homer = new Trainer ()
 // lets make a function to get pokemon data:
 
@@ -65,8 +64,6 @@ axios.get("https://pokeapi-nycda.firebaseio.com/pokemon/210.json").then((respons
   )
   console.log(pokemon)
   homer.add(pokemon)
-
-
-}).then(()=> {
   homer.spawn('granbull')
+
 })
