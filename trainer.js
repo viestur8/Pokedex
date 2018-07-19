@@ -28,7 +28,7 @@ class Trainer {
     h1.innerText = currentPoke.name
     document.getElementById("zoo").appendChild(h1);
     let hp = document.createElement('h2')
-    hp.innerText = currentPoke.hp.base_stat
+    hp.innerText = "HP " + currentPoke.hp.base_stat
     document.getElementById("zoo").appendChild(hp);
     let jimmy = document.createElement('img')
     jimmy.src = currentPoke.photo;
