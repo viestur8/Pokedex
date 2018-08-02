@@ -2,74 +2,57 @@
 @font-face {
   font-family: "Simpson";
   src: url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.eot");
-  src: url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.woff") format("woff"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.svg#Simpson") format("svg");
-}
+  src: url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.woff") format("woff"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/98de1f05dfb9377618970913de6ccf8d.svg#Simpson") format("svg"); }
 * {
-  font-family: Simpson; sans-serif;
-  color: pink;
-}
+  font-family: Simpson, sans-serif;
+  color: pink; }
 
 html {
   background: url(flaming.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  /* overflow: hidden; */
-}
-body {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  /* background-image: url("flaming.jpg");
-  background-repeat: no-repeat; */
-}
-h4{
-  text-transform: capitalize;
-  font-weight: bold;
-}
-#logo {
-    height: 100px;
-}
-.container {
-  width: 100%;
-  height: 100%;
-}
-nav .nav-wrapper {
-    position: relative;
+  /* overflow: hidden; */ }
+  html body {
     width: 100%;
-    height: 100px;
-    background-color: hotpink;
-}
+    height: 100%;
+    margin: auto;
+    /* background-image: url("flaming.jpg");
+    background-repeat: no-repeat; */ }
+    html body h4 {
+      text-transform: capitalize;
+      font-weight: bold; }
+    html body #logo {
+      height: 100px; }
+    html body .container {
+      width: 100%;
+      height: 100%; }
+    html body nav .nav-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100px;
+      background-color: hotpink; }
+    html body div {
+      margin-bottom: 1rem; }
+    html body .pokemon-name {
+      text-transform: capitalize;
+      font-weight: bold; }
+    html body img {
+      width: 200px;
+      height: 250px; }
+    html body button {
+      background-color: black;
+      border-style: none;
+      border: solid 1px black;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer; }
+    html body .max {
+      max-width: 950px;
+      text-transform: capitalize;
+      font-weight: bold;
+      color: white;
+      font-size: 250%; }
+    html body .max1 {
+      max-width: 950px;
+      text-align: center; }
 
-div {
-  margin-bottom: 1rem;
-}
-
-.pokemon-name {
-  text-transform: capitalize;
-  font-weight: bold;
-}
-
-img {
-  width: 200px;
-  height: 250px;
-}
-
-button {
-  background-color: black;
-  border-style: none;
-  border: solid 1px black;
-  padding: 0.25rem 0.5rem;
-  cursor: pointer;
-}
-.max {
-  max-width: 950px;
-  text-transform: capitalize;
-  font-weight: bold;
-  color: white;
-  font-size: 250%;
-}
-.max1 {
-  max-width: 950px;
-  text-align: center;
-
-}
+/*# sourceMappingURL=main.css.map */
