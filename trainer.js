@@ -15,7 +15,10 @@ class Trainer {
   add(pokemon) {
     this.allOfMyPokemon.push(pokemon)
   }
+  all() {
+  return  this.allOfMyPokemon;
 
+  }
   get(name) {
     return this.allOfMyPokemon.find((element) => {
       return element.name == name
